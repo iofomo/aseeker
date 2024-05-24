@@ -16,22 +16,22 @@ public class UnitTest {
 
     private static void testParse() {
         String tag = "33";// 13.0
-        String dataPath = "/Users/tiony.bo/workspace/mts/server/aseeker";
+        String dataPath = "/Users/test/aseeker";
         String tempPath = dataPath + "/temp";
-        String filePath = "/Users/tiony.bo/workspace/mts/server/aseeker/test";
+        String filePath = "/Users/test/aseeker/test";
 
         ASeekerManager mgr = ASeekerManager.getInstance(dataPath, tempPath);
         mgr.parse(tag, filePath);
     }
 
     private static void testFormat() {
-        String in = "/Users/tiony.bo/Downloads/IActivityTaskManager.aidl";
-        String out = "/Users/tiony.bo/Downloads/IActivityTaskManager-out.aidl";
+        String in = "/Users/test/IActivityTaskManager.aidl";
+        String out = "/Users/test/IActivityTaskManager-out.aidl";
         boolean succ = AidlFormator.format(new File(in), new File(out));
         Logger.assertTrue(succ);
 
-        in = "/Users/tiony.bo/Downloads/IActivityManager.aidl";
-        out = "/Users/tiony.bo/Downloads/IActivityManager-out.aidl";
+        in = "/Users/test/IActivityManager.aidl";
+        out = "/Users/test/IActivityManager-out.aidl";
         succ = AidlFormator.format(new File(in), new File(out));
         Logger.assertTrue(succ);
     }

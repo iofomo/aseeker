@@ -18,7 +18,9 @@
         <dependency>
             <groupId>com.ifms.cmpt</groupId>
             <artifactId>utils</artifactId>
-            <version>1.0.22-SNAPSHOT</version>
+            <version>1.0.22</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../libs/com.ifms.cmpt-utils-1.0.22.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.github.javaparser</groupId>
