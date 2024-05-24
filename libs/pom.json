@@ -1,0 +1,11 @@
+{
+    "mvn": [
+        {
+            "groupId": "com.ifms.xxx",
+            "artifactId": "xxx",
+            "version": "1.20",
+            "file": "xxx-1.0.0.jar",
+            "packaing": "jar"
+        }
+    ]
+}

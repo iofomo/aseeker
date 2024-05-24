@@ -1,0 +1,24 @@
+# 系统服务使用
+RemoteServiceCallback.aidl
+
+# 系统WiFi管理模块，需要系统权限
+IWifiScanner.aidl
+
+# 测试服务，是ActivityService使用的应用页面控制接口
+IActivityController.aidl
+
+# 对应的是VcnManager，Android 12开始引入是专为Android企业用户设计，用于管理企业的虚拟载波网络设置
+IVcnManagementService.aidl
+
+# 系统录音服务调用接口
+IVoiceInteractionManagerService.aidl
+
+# 系统拨号录音应用使用的服务接口
+IVideoProvider.aidl
+
+# 对应UwbManager，主要负责管理使用超宽带（UWB）技术的功能，如精确的设备定位和数据传输。这项技术通常需要特定硬件的支持。
+IUwbAdapter.aidl
+IUwbRangingCallbacks.aidl
+
+# 对应UiAutomation，系统提供的dump和自动化测试程序调用的服务
+IUiAutomationConnection.aidl

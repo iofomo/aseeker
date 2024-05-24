@@ -1,0 +1,4 @@
+# rename out file
+# ${Android source file}=${target file}
+# such as:
+# IActivityManager=IAMS

@@ -1,0 +1,3 @@
+# Android SDK home path
+ANDROID_HOME=
+MAX_LEVEL=4
