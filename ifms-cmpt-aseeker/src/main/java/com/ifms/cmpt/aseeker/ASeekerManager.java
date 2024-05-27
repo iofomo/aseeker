@@ -10,6 +10,7 @@ import com.github.javaparser.ast.NodeList;
 import com.github.javaparser.ast.body.*;
 import com.github.javaparser.ast.type.ClassOrInterfaceType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
+import com.ifms.cmpt.utils.CmnUtils;
 import com.ifms.cmpt.utils.FileUtils;
 import com.ifms.cmpt.utils.Logger;
 import com.ifms.cmpt.utils.TextUtils;
@@ -107,7 +108,7 @@ public class ASeekerManager {
             reader = new BufferedReader(new FileReader(mDataPath + "/res/" + fileName));
             while ((line = reader.readLine()) != null) {
                 line = line.trim();
-                if (line.startsWith("#")) continue;
+                if (CmnUtils.isEmpty(line) || line.startsWith("#")) continue;
                 caches.add(line);
             }
         } catch (Throwable e) {
