@@ -6,7 +6,7 @@
 
 更详细的解读，请查看我们的博客文章： [ASeeker：源码捞针，AIDL接口扫描神器](https://www.iofomo.com/blog/aseeker) 。
 
-欢迎体验我们的空壳分身产品： [空壳：你的身份，由于做主](https://www.iofomo.com/docs/mobile/konker/Introduce/) 。
+欢迎体验我们的空壳分身产品： [空壳：你的身份，由你做主](https://www.iofomo.com/docs/mobile/konker/Introduce/) 。
 
 如果您也喜欢 `ASeeker`，别忘了给我们点个星。
 
